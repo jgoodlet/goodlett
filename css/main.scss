@@ -1,3 +1,34 @@
+
+//font import
+
+@font-face {
+  font-family: 'ScalaSans';
+  src: url('/ScalaSansWebPro.eot'); /* IE9 Compat Modes */
+  src: url('/ScalaSansWebPro.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/ScalaSansWebPro.woff') format('woff'), /* Pretty Modern Browsers */
+     }
+
+ @font-face {
+   font-family: 'ScalaSansSc';
+   src: url('/ScalaSansScWebPro.eot'); /* IE9 Compat Modes */
+   src: url('/ScalaSansScWebPro.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('/ScalaSansScWebPro.woff') format('woff'), /* Pretty Modern Browsers */
+      }
+
+@font-face {
+  font-family: 'Scala';
+  src: url('/ScalaWeb.eot'); /* IE9 Compat Modes */
+  src: url('/ScalaWeb.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/ScalaWeb.woff') format('woff'), /* Pretty Modern Browsers */
+     }
+
+ @font-face {
+   font-family: 'ScalaItalic';
+   src: url('/ScalaWeb-Ita.eot'); /* IE9 Compat Modes */
+   src: url('/ScalaWeb-Ita.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('/ScalaWeb-Ita.woff') format('woff'), /* Pretty Modern Browsers */
+      }
+
 html, body {
     height: 100%;
 }
@@ -37,7 +68,7 @@ h1, h2, p {
 body {
   width: 100%;
   height: 100%;
-  font-family: sans-serif;
+  font-family: 'Scala', sans-serif;
   background: rgba(251, 251, 251, 1.0);
   @media only screen and (max-width: 35em) {
     background: rgba(0, 0, 0, 0.85);
@@ -79,13 +110,13 @@ body {
         h1 {
           margin: 0 0 .25em 0;
           font-size: 1.25rem;
-          font-family: sans-serif;
+          font-family: 'ScalaSansSc', sans-serif;
           text-transform: lowercase;
           letter-spacing: .175em;
           text-align: center;
         }
         h2 {
-          font-family: sans-serif;
+          font-family: 'ScalaItalic', sans-serif;
           text-align: center;
         }
         @media only screen and (max-width: 35em) {
