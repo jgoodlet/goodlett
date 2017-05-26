@@ -132,7 +132,11 @@ body {
 .wrapper .content section.bio article {
   max-width: 500px;
 }
-.wrapper .content section.bio article p a a:hover {
+.wrapper .content section.bio article p {
   color: white;
   line-height: 1.5;
+}
+
+.wrapper .content section.bio article p a {
+  color: white;
 }
