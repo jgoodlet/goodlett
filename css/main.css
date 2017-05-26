@@ -1,26 +1,26 @@
 @font-face {
   font-family: 'ScalaSans';
-  src: url("/ScalaSansWebPro.eot");
+  src: url("ScalaSansWebPro.eot");
   /* IE9 Compat Modes */
-  src: url("/ScalaSansWebPro.eot?#iefix") format("embedded-opentype"), url("/ScalaSansWebPro.woff") format("woff");
+  src: url("ScalaSansWebPro.eot?#iefix") format("embedded-opentype"), url("ScalaSansWebPro.woff") format("woff");
 }
 @font-face {
   font-family: 'ScalaSansSc';
-  src: url("/ScalaSansScWebPro.eot");
+  src: url("ScalaSansScWebPro.eot");
   /* IE9 Compat Modes */
-  src: url("/ScalaSansScWebPro.eot?#iefix") format("embedded-opentype"), url("/ScalaSansScWebPro.woff") format("woff");
+  src: url("ScalaSansScWebPro.eot?#iefix") format("embedded-opentype"), url("ScalaSansScWebPro.woff") format("woff");
 }
 @font-face {
   font-family: 'Scala';
-  src: url("/ScalaWeb.eot");
+  src: url("ScalaWeb.eot");
   /* IE9 Compat Modes */
-  src: url("/ScalaWeb.eot?#iefix") format("embedded-opentype"), url("/ScalaWeb.woff") format("woff");
+  src: url("ScalaWeb.eot?#iefix") format("embedded-opentype"), url("ScalaWeb.woff") format("woff");
 }
 @font-face {
   font-family: 'ScalaItalic';
-  src: url("/ScalaWeb-Ita.eot");
+  src: url("ScalaWeb-Ita.eot");
   /* IE9 Compat Modes */
-  src: url("/ScalaWeb-Ita.eot?#iefix") format("embedded-opentype"), url("/ScalaWeb-Ita.woff") format("woff");
+  src: url("ScalaWeb-Ita.eot?#iefix") format("embedded-opentype"), url("ScalaWeb-Ita.woff") format("woff");
 }
 html, body {
   height: 100%;
